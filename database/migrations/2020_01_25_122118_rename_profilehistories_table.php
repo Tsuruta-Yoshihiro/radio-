@@ -13,7 +13,8 @@ class RenameProfilehistoriesTable extends Migration
      */
     public function up()
     {
-        Schema::rename('profilehistories','profile_histories');
+        Schema::rename('profilehistories', 'profile_histories');
+        
     }
 
     /**
