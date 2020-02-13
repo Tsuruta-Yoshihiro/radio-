@@ -11,9 +11,9 @@ class RenameProfilehistoriesTable extends Migration
      *
      * @return void
      */
-    public function up()
+   public function up()
     {
-        Schema::rename('profilehistories', 'profile_histories');
+      Schema::rename('profilehistories', 'profile_histories');
         
     }
 
