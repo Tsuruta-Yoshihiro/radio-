@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
 use App\Profile;
 use App\ProfileHistory;
 use Carbon\Carbon;
@@ -15,10 +14,8 @@ class ProfileController extends Controller
     //
     public function add()
     {
-        //return view('admin.profile.create');
         $profile = Profile::find (1);
-
-        return view('admin.profile.edit', ['profile_form' => $profile]);
+        return view('admin.profile.create', ['profile_form' => $profile]);
     }
     
     
