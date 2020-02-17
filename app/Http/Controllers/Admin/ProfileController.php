@@ -14,8 +14,7 @@ class ProfileController extends Controller
     //
     public function add()
     {
-        $profile = Profile::find (1);
-        return view('admin.profile.create', ['profile_form' => $profile]);
+        return view('admin.profile.create');
     }
     
     
