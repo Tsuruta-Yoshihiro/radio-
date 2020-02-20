@@ -29,15 +29,18 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="gender">性別</label>
                         <div class="col-md-10">
-                            <div class="radio-inline">
-                                <input type="radio" class="form-control" value="男" name="gender" id="man">
-                                <label for="men">男性</label>
-                            </div>
-                            
-                            <div class="radio-inline">
-                                <input type="radio" class="form-control" value="女" name="gender" id="woman">
-                                <label for="women">女性</label>
-                            </div> 
+                            <form id="logical" style="font-size:small;">
+                                <p style="display:inline-block; width:100px;">
+                                    <input type="radio" class="form-control" value="男" name="gender" id="man" checked />男性
+                                </p>        
+                                </div>
+                            </form>
+                            <form id="logical">
+                                <p style="display:inline-block; width:100px;">
+                                    <input type="radio" class="form-control" value="女" name="gender" id="women" checked />女性
+                                </p>        
+                                </div>
+                            </form> 
                             
                         </div>
                     </div>
@@ -59,4 +62,4 @@
             </div>
         </div>
     </div>
-@endsection    
+@endsection
